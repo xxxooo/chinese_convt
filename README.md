@@ -1,5 +1,7 @@
 #chinese_convt
 
+[RubyGems](http://rubygems.org/gems/chinese_convt)
+
 	Chinese is not a simple one kind langurage.
 	This gem provide conversion between Traditional and Simplified Chinese.
 	Further, adjusting phrases to conform in Taiwan or Hong Kong or China.

@@ -7,5 +7,5 @@ Gem::Specification.new do |s|
   s.authors     = ["xxxooo"]
   s.email       = 'xxxooo.tw@gmail.com'
   s.files       = ["lib/chinese_convt.rb", "lib/chinese_convert/zh_convt.rb", "lib/chinese_convert/zh_convt", "chinese_convt.gemspec", "Rakefile", "README.md","test/test_chinese_convt.rb"]
-  s.homepage    = 'http://github.com/xxxooo'
+  s.homepage    = 'http://github.com/xxxooo/chinese_convt'
 end
