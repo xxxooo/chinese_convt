@@ -9,19 +9,23 @@ module Chinese
           type.first.split(',').each{ |term| convt_table.last.last[ term.split(':').first ] = term.split(':').last }
         end
       end
-      str0 = String.new( str )
-      str1 = String.new( str )
-      convt_table.each do |group|
-        arr.each do |t|
-          group[t].each do |key , value|
-            while ( q = str0.index( key ) ) != nil
-              str0[q...(q + key.size)] = "#" * value.size
-              str1[q...(q + key.size)] = value
+      begin
+        str0 = String.new( str )
+        str1 = String.new( str )
+        convt_table.each do |group|
+          arr.each do |t|
+            group[t].each do |key , value|
+              while ( q = str0.index( key ) ) != nil
+                str0[q...(q + key.size)] = "#" * value.size
+                str1[q...(q + key.size)] = value
+              end
             end
           end
         end
+        return str1
+      rescue
+        return $!
       end
-      return str1
     end
   end
 end
