@@ -1,4 +1,4 @@
-#chinese_convt
+#Chinese_Convt
 
 [RubyGems](http://rubygems.org/gems/chinese_convt)
 
@@ -23,21 +23,21 @@
 
 ## Usage
 ####convert string to Traditional Chinese
-####將中文字串轉換至繁體中文
+將中文字串轉換至繁體中文
 	Chinese.zh2tra( str )
 
 ####convert string to Simplified Chinese
-####將中文字串轉換至简体中文
+將中文字串轉換至简体中文
 	Chinese.zh2sim( str )
 	
 ####convert string to Traditional Chinese of Taiwan
-####將中文字串轉換至台灣繁體中文
+將中文字串轉換至台灣繁體中文
 	Chinese.zh2tw( str )
 
 ####convert string to Traditional Chinese of Hong Kong
-####將中文字串轉換至香港繁體中文
+將中文字串轉換至香港繁體中文
 	Chinese.zh2hk( str )
 
 ####convert string to Simplified Chinese of China
-####將中文字串轉換至中国简体中文
+將中文字串轉換至中国简体中文
 	Chinese.zh2cn( str )
