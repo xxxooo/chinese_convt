@@ -1,3 +1,4 @@
+# encoding: UTF-8
 module Chinese
   class Convert
     def self.zh_convt( arr , str )
